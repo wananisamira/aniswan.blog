@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Table</title>
+    <style>
+        table {border: 3px solid rgb(200, 0, 187);
+            border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto; / center /}
+
+        th, td {border: 3px solid rgb(200, 0, 187);
+            padding: 10px;}
+
+        body {background-image: url(images/background/page\ 5.jpg);
+            color: rgb(255, 255, 255);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;}
+
+        h1 {background-color: rgb(100, 0, 143);
+            padding: 20px;
+            text-align: center;}
+
+        .gallery {display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;}
+
+        .gallery video {border: 5px solid white;}
+
+        button {background-color: rgb(146, 0, 209);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;}
+
+        .description ul {list-style-type: disc;
+            text-align: justify;
+            padding-left: 40px;
+            margin: 0;}
+
+    </style>
+    </head>
+
+<body>
+    <h1 style="background-color: rgb(114, 0, 114);">ROUTINE DURING SHORT OR LONG-TERM BREAK</h1>
+    <table>
+        <tr>
+            <th>DESCRIPTION</th>
+            <th>MEDIA</th>
+        </tr>
+        <tr>
+            <td>Picture of restaurant hunting in Johan Haris, Rembau during our weekend.</td>
+            <td><img src="images/johan haris.jpg" alt="Sample Image" width="200"></td>
+        </tr>
+        <tr>
+            <td>Music that I would consider as my favorite song lately during bus trips.</td>
+            <td>
+                <audio controls>
+                    <source src="audio/lukrembo - travel (royalty free vlog music) [TubeRipper.com].m4a" type="audio/mpeg">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                <ul>
+                    <li>As a student in any educational institution, there must be a short or long-term break. For me, if there is a short break (less than 4 days), 
+                        I would take a break outside of the campus with my friends to clear our minds, such as going shopping or doing any activities.</li>
+                    <li>Meanwhile, if there is a long-term break, we would buy bus tickets to go back to our hometown.</li>
+                </ul>
+            </td>
+            <td>
+                <video width="320" height="240" controls>
+                    <source src="video/Short Break.mp4 break.mp4" type="video/mp4">
+                   
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="video/Long Break (More Than 1 Week Break).mp4 break (more than 1 week break).mp4" type="video/mp4">
+                  
+                </video>
+                </td>
+                </tr>
+                </table>
+
+    <div class="button-container">
+        <button onclick="location.href='rembauprogrammes.html'">Previous</button>   
+        <button onclick="location.href='attractions.html'">Next</button>
+    </div>
+
+</body>
+</html>
+

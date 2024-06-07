@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+        <style>
+        body 
+        {background-image: url(images/background/page\ 4.jpg);
+            color: rgb(255, 255, 255);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;}
+
+        h1 {background-color: rgb(100, 0, 143);
+            padding: 20px;
+            text-align: center;}
+            
+        .gallery {display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;}
+            
+        .gallery video {border: 5px solid white;}
+
+        button {background-color: rgb(146, 0, 209);
+                 color: white;
+                 border: none;
+                 padding: 10px 20px;
+                 text-align: center;
+                 text-decoration: none;
+                 display: inline-block;
+                 font-size: 16px;
+                 cursor: pointer;
+                 border-radius: 5px;}
+    </style>
+    </head>
+         <body>
+         <h1 style="background-color: rgb(114, 0, 114);">UITM REMBAU'S EVENTS</h1>
+
+
+         <div class="gallery">
+     
+             <video width="200" controls>
+                 <source src="video/Raya.mp4" type="video/mp4">  
+                 </video>
+     
+             <video width="200" controls>
+                 <source src="video/Wayang.mp4" type="video/mp4"> 
+                 </video>
+
+            <video width="200" controls>
+                <source src="video/Busking.mp4" type="video/mp4">
+            </video>
+     
+             <video width="200" controls>
+                 <source src="video/Perkad.mp4" type="video/mp4"> 
+                 </video>
+
+            <video width="200" controls>
+                <source src="video/Jamuan.mp4" type="video/mp4">
+            </video>
+
+            <video width="200" controls>
+                <source src="video/Food.mp4" type=" video/mp4">
+            </video>
+
+         </div>
+
+         <div class="button-container">
+            <button onclick="location.href='rembaucampus.html'">Previous</button>   
+            <button onclick="location.href='routine break.html'">Next</button>
+        </div>
+</body>
+</html>
